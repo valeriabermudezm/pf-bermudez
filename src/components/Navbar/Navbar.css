@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.navbar-color{
+    background-color: #D9C9BA;
+}
+
+.logoNavbar{
+    width: 180px;
+    padding: 10px 20px;
+}
+
+.nav-link{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #735236;
+}
+.navbar{
+    --bs-navbar-brand-margin-end: 50rem;
+}
+
+.navbar-collapse {
+    flex-grow: 0.5;
+}
