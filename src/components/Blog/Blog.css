@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+/* .contItemListC{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /* justify-content: center;
+    margin: 250px 0;
+    padding: 0 220px;
+    font-family: 'Lato', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    color: #A6896F;
+} */
+.titulo-blog{
+  font-family: 'Lato', sans-serif;
+  font-size: 3.4rem;
+  font-weight: 700;
+  text-align: center;
+  color:#735236;
+  margin: 40px 0 50px 0;
+}
+
+.blog-texto {
+    padding: 10% 5% 18% 5%;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 0.02rem;
+    text-align: center;
+    line-height: 1.8rem;
+  }
+  
+  .sobremi-img {
+    width: 70%;
+  }

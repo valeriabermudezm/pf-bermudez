@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+.itemList {
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1240px;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    height: 450px;
+    justify-content: space-between;
+    padding: 9px 3px 0px;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 10px #00000059;
+    margin-top: 40px;
+}
+
+.imgProd {
+    height: 300px;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.nomProd{
+    text-align: center;
+    margin-top: 10px;
+    color: #735236;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.textProd{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.detalles {
+    background-color: #735236;
+    width: 130px;
+    align-self: center;
+    margin-bottom: 15px;
+    padding: 4px;
+    position: relative;
+    box-shadow: 0px 0px 10px #735236;    
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}

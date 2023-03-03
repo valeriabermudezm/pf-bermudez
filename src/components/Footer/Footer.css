@@ -1,0 +1,66 @@
+.bg-footer {
+    background-color: #D9C9BA;
+    width: 100%;
+    padding: 4%;
+    padding-bottom: 2%;
+  }
+
+  .logo-footer {
+    width: 200px;
+    height: 120px;
+  }
+
+  .h3,
+  h3 {
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  .contact-footer {
+    width: 38%;
+    color: #735236;
+    font-family: "Lato", sans-serif;
+    font-size: 0.8rem;
+  }
+
+  .sobremi-footer {
+    color: #735236;
+    font-family: "Lato", sans-serif;
+    font-size: 0.8rem;
+    width: 50%;
+    padding-right: 5%;
+  }
+
+  .margin_text_footer {
+    margin-top: 10%;
+  }
+
+  .correof {
+    color: #735236;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: "Lato", sans-serif;
+    padding-left: 0%;
+  }
+
+  .redes a i {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 10% 0 0;
+  }
+
+  .redes p {
+    color: #735236;
+    padding: 22% 0;
+    font-family: "Lato", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.25rem;
+  }
+
+  .margin_text_footer_mail{
+    margin: 0;
+  }
+
+  /* .redes a i:hover {
+    transform: scale(1.2);
+  } */
