@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-footer grid">
     <div className="row">
     <div className="col">
-        <img src={process.env.PUBLIC_URL + 'valarte_crochet_logo.svg'} alt="logo_valarte_studio_footer"
+        <img src={process.env.PUBLIC_URL + 'valarte_crochet_logo.svg'} alt="Logo Valarte Crochet footer"
             className="logo-footer"/>
     </div>
     <div className="contact-footer col">

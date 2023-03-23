@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.contItemDetail{
+    display: flex;
+    align-items: center;
+    margin: 5% 5% 5% 15%;
+}
+
+.contTextItemDet{
+    margin: 8%;
+}
+
+.titleItemDetail{
+    font-size: 2.7rem;
+    font-family: 'Lato', sans-serif;
+    color: #735236;
+    font-weight: 700;
+}
+
+.imgItemDetail{
+    width: 35%;
+}
+
+/* .contPrecItem{
+    background-color: #D9C9BA;
+    border-radius: 10px;
+    width:fit-content;
+    padding: 20px 20px 10px 20px;
+    margin-top: 50px;
+
+} */
+
+.precItem{
+    margin-top: 25px;
+    font-size: 1.6rem;
+}
+
+.textItem{
+    margin-top: 40px;
+    font-size: 1.3rem;
+}

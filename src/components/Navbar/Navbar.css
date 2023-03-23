@@ -14,12 +14,13 @@ a{
     font-size: 20px;
     color: #735236;
     text-decoration: none;
-    padding:0 15px;
+    padding:0 0 0 15px;
 }
 .navbar{
- --bs-navbar-brand-margin-end: 50rem; 
+ --bs-navbar-brand-margin-end: 55rem; 
 }
 
 .navbar-collapse {
     flex-grow: 0.5;
 } 
+
