@@ -6,7 +6,6 @@ import Inicio from './Inicio/Inicio'
 import Footer from './Footer/Footer';
 import Blog from './Blog/Blog';
 import ItemDetailContainer from './ItemListContainer/ItemDetailContainer';
-import Categories from './Categories/Categories'
 
 
 const Landing = () => {
@@ -19,7 +18,7 @@ const Landing = () => {
           <Route exact path="/blog" element={<Blog />} ></Route>
           <Route exact path="/tienda" element={<ItemListContainer />} ></Route>
           <Route exact path="/item/:id" element={<ItemDetailContainer />}></Route>
-          <Route exact path="/item/:categoria" element={<Categories/>}></Route>
+          <Route exact path="/category/:categoria" element={<ItemListContainer />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

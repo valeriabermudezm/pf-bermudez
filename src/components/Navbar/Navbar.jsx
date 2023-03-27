@@ -56,9 +56,9 @@ const Navbar = () => {
                             <li className="nav-item dropdown">
                                 <Link to={'/tienda'} className="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tienda</Link>
                                 <ul className="dropdown-menu">
-                                    <li><Link to={'/item/:sweaters'} className="dropdown-item"> Sweaters</Link></li>
-                                    <li><Link to={'/item/:bufandas'} className="dropdown-item"> Bufandas</Link></li>
-                                    <li><Link to={'/item/:gorros'} className="dropdown-item"> Gorros</Link></li>
+                                    <li><Link to={'/category/sweaters'} className="dropdown-item"> Sweaters</Link></li>
+                                    <li><Link to={'/category/bufandas'} className="dropdown-item"> Bufandas</Link></li>
+                                    <li><Link to={'/category/gorros'} className="dropdown-item"> Gorros</Link></li>
                                 </ul>
                             </li>
                         </ul>

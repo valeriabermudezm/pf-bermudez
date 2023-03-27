@@ -1,17 +1,24 @@
 import React, { useEffect, useState } from 'react';
-import getList from '../../utils/getProducts'
+import { useParams } from "react-router-dom";
+// import getList from '../../utils/getProducts'
 import ItemList from './ItemList';
+import {getList, getProductsByCategory} from '../../utils/getProducts'
 
 const ItemListContainer = () => {
 
   const [arrayList, setArrayList] = useState([]);
+  const {categoria} = useParams();
+
 
   useEffect(() => {
-    getList()
-      .then((response) => setArrayList(response))
-      .catch((err) => console.log(err))
-      .finally()
-  }, [])
+  if (categoria) {
+      getProductsByCategory(categoria)
+      .then((res) =>setArrayList(res))
+  }else{
+      getList()
+      .then((res) => setArrayList(res))
+  }
+  }, [categoria])
 
   return (
     <>
@@ -24,6 +31,19 @@ const ItemListContainer = () => {
 export default ItemListContainer
 
 
+
+
+
+
+
+
+
+  // useEffect(() => {
+  //   getList()
+  //     .then((response) => setArrayList(response))
+  //     .catch((err) => console.log(err))
+  //     .finally()
+  // }, [])
 
 
 
